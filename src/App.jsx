@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
+import TrainingCertification from './components/TrainingCertification';
 import Contact from './components/Contact';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,6 +17,7 @@ const App = () => {
       <main>
         <About />
         <Experience />
+        <TrainingCertification/>
         <Projects />
         <Contact />
       </main>

@@ -22,7 +22,7 @@ const About = () => {
           </Col>
           <Col md={8}>
             <h2 className="text-center text-md-start">About Me</h2>
-            <p>Hello, my name is Muhammad Felbi Ramdhani. I am an IT Support Engineer with 4 years of experience, recently transitioning to a Fullstack Developer/Technical Support/IT Engineer role. I possess the ability to diagnose and resolve technical issues. I aim to leverage my technical support background and new development skills to effectively contribute to a dynamic development team.</p>
+            <p>IT Engineer, IT Technical Support with 4 years of experience, recently with new skills in JavaScript MERN,  Proven  ability  to  diagnose  and  resolve  technical  issues.  Eager  to  leverage  technical  support background and new development skills to contribute effectively to dynamic development teams.</p>
             <h2 className="text-center text-md-start mt-4">Education</h2>
             <p className="text-md-start">
               <strong>Bachelor of Information Technology</strong><br />
