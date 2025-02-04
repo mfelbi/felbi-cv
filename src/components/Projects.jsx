@@ -1,60 +1,40 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
+const projectsData = [
+ 
+  {
+    title: 'Web Development Food Ordering with CRM Algorithm',
+    subtitle: 'Authentic Cafe Cikampek',
+    period: '2018'
+  },
+  {
+    title: 'Web Development landing Page ',
+    subtitle: 'Tumbuh Bersama Project',
+    period: '2024'
+  },
+
+];
+
 const Projects = () => {
   return (
     <section id="projects" className="p-5">
       <Container>
         <h2 className="text-center">My Projects</h2>
-        <Row>
-          <Col md={6}>
-            <Card className="mb-4">
-              <Card.Body>
-                <Card.Title>Founder</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Instagram: @catataninfo</Card.Subtitle>
-                <Card.Text>2017 - 2019</Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={6}>
-            <Card className="mb-4">
-              <Card.Body>
-                <Card.Title>Marketing Project</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Instagram: @AbangFelix</Card.Subtitle>
-                <Card.Text>2017 - 2018</Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={6}>
-            <Card className="mb-4">
-              <Card.Body>
-                <Card.Title>Reinstall OS dan Software PC dan laptop Laboratorium Fasilkom</Card.Title>
-                <Card.Text>2017</Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={6}>
-            <Card className="mb-4">
-              <Card.Body>
-                <Card.Title>Web Development Food Ordering</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Authentic Cafe Cikampek</Card.Subtitle>
-                <Card.Text>2018</Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={6}>
-            <Card className="mb-4">
-              <Card.Body>
-                <Card.Title>Web Development</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Tumbuh Bersama Project</Card.Subtitle>
-                <Card.Text>2024</Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
+        <Row className="d-flex flex-wrap">
+          {projectsData.map((project, index) => (
+            <Col key={index} md={6} sm={12} className="mb-4">
+              <Card>
+                <Card.Body>
+                  <Card.Title>{project.title}</Card.Title>
+                  {project.subtitle && (
+                    <Card.Subtitle className="mb-2 text-muted">{project.subtitle}</Card.Subtitle>
+                  )}
+                  <Card.Text>{project.period}</Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
         </Row>
       </Container>
     </section>
@@ -62,3 +42,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
