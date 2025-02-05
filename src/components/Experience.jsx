@@ -15,19 +15,17 @@ const experienceData = [
     period: 'Sept 2024 - Jan 2025',
     location: 'Tangerang, Indonesia',
     tasks: [
-      'Installed, Hardening, Configured device Windows, Mac OS & onboarding device.',
-      'Troubleshot computer hardware, software, and network.',
-      'Google Workspace service and migration.',
-      'Jira ticketing and management.',
-      'Implemented new policies and procedures for end user computing.',
-      'Meeting room preparation and audio-visual setup.'
+      'Provide  technical  support  for  internal  and  external  users,  ensuring  fast  and  effective problem resolution in terms of bugs, system issues, and new feature implementation.',
+      'Support Application: Monitoring & Troubleshoot Database, Backend & Frontend',
+      'POS  System  and  SAP:  Support  development  and  troubleshooting  of  Sales  App-based',
+      'POS  applications  integrated  with  SAP  systems,  ensuring  smooth  transaction  and operational processes.'
     ]
   },
   {
-    title: 'Information Technology (Project PT. Superbank)',
+    title: 'IT Engineer (Project PT. Superbank)',
     company: 'PT. Mastersystem Infotama',
     logo: mastersystemLogo,
-    period: 'Jan 2024 - Present (6 months)',
+    period: 'Jan 2024 - Sept 2024',
     location: 'Jakarta, Indonesia',
     tasks: [
       'Installed, Hardening, Configured device Windows, Mac OS & onboarding device.',
@@ -39,10 +37,10 @@ const experienceData = [
     ]
   },
   {
-    title: 'IT Support',
+    title: 'IT Support SPV',
     company: 'PT. Tozy Sentosa',
     logo: tozyLogo,
-    period: '2019',
+    period: 'Jan 2019 - Sept 2019',
     location: 'Karawang, Indonesia',
     tasks: [
       'Installed applications and monitored systems for efficient operation.',
@@ -51,10 +49,10 @@ const experienceData = [
     ]
   },
   {
-    title: 'IT Engineer (Project PT. HM Sampoerna)',
+    title: 'IT End User Computing (Project PT. HM Sampoerna)',
     company: 'PT. Infomedia Nusantara',
     logo: infomediaLogo,
-    period: '2021 - 2022',
+    period: 'Agust 2021 - Jan 2023',
     location: 'Jakarta, Indonesia',
     tasks: [
       'Installed and configured Windows Autopilot/Standalone.',
@@ -66,10 +64,10 @@ const experienceData = [
     ]
   },
   {
-    title: 'IT Engineer',
+    title: 'IT Support',
     company: 'PT. Idaman Megah Indah',
     logo: idamanLogo,
-    period: '2018',
+    period: 'Jan 2018 - Dec 2018',
     location: 'Karawang, Indonesia',
     tasks: [
       'Installed, configured, and maintained IT infrastructure.',
